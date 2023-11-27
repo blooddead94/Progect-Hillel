@@ -1,5 +1,5 @@
-.bodystyle {
-  /* Style for general page*/
+.container {
+  /*   General page - Стиль для Главной страницы*/
   width: 1200px;
   margin: 0 auto;
   text-align: center;
@@ -40,9 +40,31 @@ style-p2 {
   height: 360px;
 }
 
-.stylep3 {
+.style-p2+.stylep3 {
+  /* Split  - Совместное*/
   text-align: left;
-  color: rgb(255, 169, 19);
+  color: rgb(19, 180, 255);
 }
 
-/* Style for table */
+/* Style for table - Стиль для таблицы */
+.table-class {
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  border-collapse: separate;
+  border: 2.5px dashed;
+  background-color: rgb(183, 255, 0);
+}
+
+.onesblue {
+  background-color: blue;
+}
+
+.onesgold {
+  background-color: gold;
+}
+
+.table-class>.captn {
+  /* Split - Совместное */
+  color: rgb(255, 134, 47);
+}
